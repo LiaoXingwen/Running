@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#eeffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="title"
+        android:textColor="#FFB5C5"
+        android:textSize="20sp"
+        android:visibility="visible" />
+    
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/massage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="msg"
+        android:textColor="#515151"
+        android:textSize="15dp"
+        android:gravity="center"
+         />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:background="#8800FF7F"
+            android:gravity="center"
+            android:textColor="#ff999999"
+            android:text="确定 " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                 android:background="#88DEDEDE"
+                android:gravity="center"
+                android:textColor="#ff999999"
+                android:text="取消" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
